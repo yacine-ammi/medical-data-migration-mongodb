@@ -2,10 +2,6 @@
 
 This project demonstrates a pipeline for ingesting medical data from CSV files into MongoDB, using Docker for containerization and Python for the ETL process.
 
-## 🧪 Practical Exercise: Migrating Medical Data to MongoDB
-
-(You can briefly restate the project objective here if you like)
-
 ## 🚀 Features
 
 *   Automated ETL process to load CSV data into MongoDB.
@@ -116,10 +112,8 @@ The data is stored in a single collection named `medical_records` within the `me
 "_source_filename": "healthcare_dataset-20250506.csv"
 }
 ```
-*(Adjust the example document based on your final schema decisions, e.g., rounding of Billing Amount)*
 
 ## 🔍 Example Queries
-*(This section is optional for the README if it's detailed in your PDF, but good to have a few examples)*
 
 1.  **Count total records:**
     ```javascript
